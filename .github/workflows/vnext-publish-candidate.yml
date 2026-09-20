@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/vnext-publish-candidate.yml'
+      - 'TRIGGER-AIFS.txt'
 
 permissions:
   contents: read
